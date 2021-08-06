@@ -4,7 +4,7 @@
 a piece of Java/Python code that generates a valid Singapore NRIC/FIN number for test automation and test data preparations.
 
 ## What’s a NRIC/FIN number?
-NRIC (National Registration Identity Card) is the identity document in use in Singapore. The NRIC number is a unique alpha-numeric serial number assigned to the document.
+NRIC (National Registration Identity Card) is the identity document in use in Singapore. The NRIC number is a unique alphanumeric serial number assigned to the document.
 
 ## What are NRIC/FIN generated numbers used for?
 It is used for testing applications which requires a valid NRIC/FIN number as input data, you can include the piece of code to your data scripting/data preparations.
