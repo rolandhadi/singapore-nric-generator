@@ -1,7 +1,8 @@
 # singapore-nric-generator
 
 ## What is singapore-nric-generator?
-a piece of Java/Python code that generates a valid Singapore NRIC/FIN number for test automation and test data preparations.
+A piece of Java/Python code that generates a valid Singapore NRIC/FIN number for test automation and test data preparations.
+It is inspired from the web developer samliew.
 
 ## What are a NRIC/FIN numbers?
 NRIC (National Registration Identity Card) is the identity document in use in Singapore. The NRIC number is a unique alphanumeric serial number assigned to the document.
