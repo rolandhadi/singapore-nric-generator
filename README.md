@@ -4,7 +4,7 @@
 NRIC (National Registration Identity Card) is the identity document in use in Singapore. The NRIC number is a unique alpha-numeric serial number assigned to the document.
 
 ## What are NRIC/FIN generated numbers used for?
-It is used for testing applications that requires a valid NRIC/FIN numbers, you can include the piece of code to your data scripting/data preparation
+It is used for testing applications which requires a valid NRIC/FIN number as input data, you can include the piece of code to your data scripting/data preparation
 
 ## How is the number generated?
 The number is randomly generated. However to make it valid, the random numbers are used to calculate the checksum (last character) using an algorithm described in the Wikipedia page. If special rules like the starting letter or DOB is selected, the algorithm changes accordingly.
