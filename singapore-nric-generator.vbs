@@ -1,11 +1,12 @@
 ' doc_type: "NRIC" or "FIN", default is "NRIC"
 Function generate_singapore_nric(doc_type)
     Dim chars(6) As String
+    
     first_letter = "S"
     If "FIN" = doc_type Then
         first_letter = "G"
     End If
-    age = 8
+    
     If first_letter <> "S" And first_letter <> "T" And first_letter <> "F" And first_letter <> "G" Then
         generate_singapore_nric = "Error"
     End If
@@ -29,6 +30,7 @@ Function generate_singapore_nric(doc_type)
     For i = 0 To 6
         sum_val = sum_val + chars(i)
     Next
+    
     offset_value = 0
     If first_letter = "T" Or first_letter = "G" Then
         offset_value = 4
